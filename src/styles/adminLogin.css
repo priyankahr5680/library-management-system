@@ -1,0 +1,30 @@
+.adminLogin{
+    background-color: rgba(175, 219, 219, 0.834);
+    margin: 30px auto;
+    height: 400px;
+    margin-top: 150px;
+    border-radius: 10px;
+    width: 600px;
+   text-align: center;
+}
+.adminLogin h1{
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 40px;
+}
+.form_input button{
+    margin-top: 80px;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+.email input{
+    margin-top: 60px;
+    padding: 8px 40px;
+    border-radius: 6px;
+}
+.password input{
+    margin-top:40px;
+    padding:8px 40px;
+    border-radius: 6px;
+
+}

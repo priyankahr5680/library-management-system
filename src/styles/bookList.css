@@ -1,0 +1,26 @@
+.book_details{
+  display: flex;
+}
+.images img{
+  margin-left: 100px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+.book_card button{
+   margin-top: 0px;
+    color: black;
+    background-color: red;
+}
+.book_card{
+  width: 70%;
+  margin-left: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 0px 8px;
+  border-radius: 10px;
+ 
+}
+
+.booklist h1{
+  text-align: center;
+}

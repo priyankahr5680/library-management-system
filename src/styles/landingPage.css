@@ -1,0 +1,46 @@
+
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.kORgg_CCZCKonf4MfSpmEwHaE8?pid=ImgDet&w=1254&h=836&rs=1");
+    background-size: cover;
+    
+}
+
+  .landingpage{
+   margin-top: 150px;
+    width: 600px;
+    background-color: rgba(175, 219, 219, 0.692);
+    height: 400px;
+    margin-left: 30%;
+    font-style: italic;
+    border-radius: 10px;
+    text-align: center;
+}  
+
+
+
+.adimiuser{
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+padding: 30px 30px;
+ 
+}
+.selectLoginType h1{
+    padding-top: 20px;
+}
+.adimiuser button{
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.adimiuser img{
+    margin-top: 0px;
+    border-radius: 100%;
+}
+.user1{
+    text-decoration: none;
+    font-weight: bold;
+}
+.admin1{
+    text-decoration: none;
+    font-weight: bold;
+}

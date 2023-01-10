@@ -1,0 +1,22 @@
+.user_details{
+    position: relative;
+    top:0px;
+    display: inline-block;
+    width:400px;
+    height: 200px;
+    border: 1px solid whitesmoke;
+    margin: 5px 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-color:azure;
+    border-radius: 15px;
+}
+.userList h1{
+    text-align: center;
+    color:red;
+}
+.user_details button{
+    color: black;
+    background-color:aqua;
+    border-radius: 2px;
+}

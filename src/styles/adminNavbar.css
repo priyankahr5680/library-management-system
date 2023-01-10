@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+}
+.nav_links li{
+    display: inline;
+    margin: 0px 40px;
+}
+.link{
+    text-decoration: none;
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo img{
+    border-radius: 60%;
+    margin-top: 10px;
+}
