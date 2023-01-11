@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../styles/addBooks.css'
 const AddBook = () => {
     //title,categories,authors,longDescription,shortDescription,pageCount,thumbnailUrl
     let navigate = useNavigate()
@@ -32,9 +33,11 @@ const AddBook = () => {
     // }
     return (
         <div className="addBook">
-            <h1>Add a Book</h1>
+       
             <div className="forms">
                 <form action="" onSubmit={handleSubmit}>
+                    <div className="book_List">
+                        <h1>Add Books</h1>
                     <div className="title">
                         <input type="title" placeholder="enter title" value={title} onChange={(e) => setTitle(e.target.value)} />
                     </div>
@@ -45,10 +48,10 @@ const AddBook = () => {
                         <input type="categories" placeholder="enter categories" value={categories} onChange={(e) => setCategories(e.target.value)} />
                     </div>
                     <div className="longDescription">
-                        <textarea type="text" placeholder="enter longDescription about book" value={longDescription} onChange={(e)=>setLongDescription(e.target.value)} cols="30" rows="10"></textarea>
+                        <textarea type="text" placeholder="enter longDescription about book" value={longDescription} onChange={(e)=>setLongDescription(e.target.value)} cols="28" rows="5"></textarea>
                     </div>
                     <div className="shortDescription">
-                        <textarea type="text" placeholder="enter shortDescription about book" value={shortDescription} onChange={(e)=>setShortDescription(e.target.value)} cols="30" rows="10"></textarea>
+                        <textarea type="text" placeholder="enter shortDescription about book" value={shortDescription} onChange={(e)=>setShortDescription(e.target.value)} cols="28" rows="5"></textarea>
                     </div>
                     <div className="pageCount">
                         <input type="number" placeholder="enter pageCount" value={pageCount} onChange={(e) => setPageCount(e.target.value)}/>
@@ -59,6 +62,7 @@ const AddBook = () => {
                     <div className="addbook_butn">
                         <button>AddBook</button>
                         <button>Reset</button>
+                    </div>
                     </div>
                 </form>
             </div>

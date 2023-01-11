@@ -15,7 +15,7 @@ const AdminHome = () => {
                 <Route path="/" element={<AdminDashboard/>}/>
                 <Route path='/book-list' element={<BookList/>}/>
                 <Route path='/user-list' element={<UserList/>}/>
-                <Route path='book-list/:id'element={<ReadBook/>}/>
+                <Route path='/book-list/:id'element={<ReadBook/>}/>
                 <Route path='/add-user' element={<AddUser/>}/>
                 <Route path='/add-book' element={<AddBook/>}/>
                </Routes>

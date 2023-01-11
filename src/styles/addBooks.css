@@ -1,0 +1,32 @@
+.addBook{
+    text-align: center;
+    background-color:white;
+    width: 25%;
+    border-radius: 8px;
+    margin: 40px auto;
+    border: 3px solid black;
+}
+.book_List input{
+    padding: 5px 30px;
+    margin: 5px 20px;
+    border-radius: 5px;
+    border: 2px solid red;
+ }
+.title input{
+    padding: 8px 30px;
+
+}
+.addbook_butn button{
+    background-color: brown;
+  color: white;
+  padding: 3px 16px;
+  border-radius: 3px;
+  margin: 10px 10px;
+}
+.book_List textarea{
+    border: 2px solid red;
+   
+    margin: 5px 20px;
+    border-radius: 5px;
+
+}

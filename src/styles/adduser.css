@@ -1,0 +1,44 @@
+.add-user{
+    text-align: center;
+  
+}
+.user_list{
+ 
+    background-color:white;
+   padding-top: 0px;
+   padding-bottom: 20px;
+   
+    width: 20%;
+    margin: 60px auto;
+    border: 2px solid black;
+}
+
+.user_list input{
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+.addname {
+    margin:20px 20px;
+   
+}
+.addage{
+    margin: 20px 20px;
+   
+}
+.addemail{
+    margin: 20px 20px;
+  
+}
+.addphNo{
+    margin:20px 20px ;
+   
+}
+
+.addbutn button{
+  margin: 10px 10px;
+  background-color: brown;
+  color: white;
+  padding: 3px 16px;
+  border-radius: 3px;
+}

@@ -14,10 +14,15 @@ const ReadBook = () => {
 },[])
     return ( 
         <div className="readBook">
-            
+           <div className="heading1">
             <h1>{books.title}</h1>
-            <p>shortyDescription : {books.shortDescription}</p>
-            <p>longDescription : {books.longDescription}</p>
+            </div>
+            <div className="short1" >
+            <p> <b> ShortDescription</b> : {books.shortDescription}</p>
+            </div>
+            <div className="long1">
+            <p><b>LongDescription</b>  : {books.longDescription}</p>
+            </div>
           
         </div>
      );
