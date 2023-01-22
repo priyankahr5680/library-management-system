@@ -1,14 +1,15 @@
 
 body{
-    background-image: url("https://th.bing.com/th/id/OIP.kORgg_CCZCKonf4MfSpmEwHaE8?pid=ImgDet&w=1254&h=836&rs=1");
+    background-image: url("/public/images/bookban.jpg");
     background-size: cover;
+    height: 100vh;
     
 }
 
   .landingpage{
    margin-top: 150px;
     width: 600px;
-    background-color: rgba(175, 219, 219, 0.692);
+    background-color:white;
     height: 400px;
     margin-left: 30%;
     font-style: italic;

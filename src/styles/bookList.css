@@ -1,7 +1,10 @@
 .book_details{
   display: flex;
+  
+ 
 }
 .images img{
+  
   margin-left: 100px;
   margin-bottom: 5px;
   border-radius: 8px;
@@ -10,6 +13,7 @@
    margin-top: 0px;
     color: black;
     background-color: red;
+    margin-left: 10px;
 }
 .book_card{
   width: 70%;
@@ -20,7 +24,11 @@
   border-radius: 10px;
  
 }
-
+#button1{
+  background-color: cyan;
+  margin-left: 10px;
+}
 .booklist h1{
   text-align: center;
+  color:crimson;
 }

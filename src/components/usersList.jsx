@@ -9,11 +9,11 @@ const UserList = () => {
             setUser(data)
         }
         fetchData()
-    },[])
+    },[user])
     let RemoveUser=(id,name)=>{
-            fetch(`http://localhost:2006/books/${id}`,{
-             method:'DELETE'
-            })
+        fetch(`http://localhost:2006/users/${id}`,{
+         method:'DELETE'
+        })
             alert(`${name} will be deleted permanently`)
          }
     

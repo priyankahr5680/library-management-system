@@ -13,17 +13,14 @@ const ReadBook = () => {
         fetchData()
 },[])
     return ( 
-        <div className="readBook">
-           <div className="heading1">
+        <div className="readBook">    
+                         
             <h1>{books.title}</h1>
-            </div>
-            <div className="short1" >
-            <p> <b> ShortDescription</b> : {books.shortDescription}</p>
-            </div>
-            <div className="long1">
-            <p><b>LongDescription</b>  : {books.longDescription}</p>
-            </div>
-          
+            
+            <p><b className="short"> ShortDescription : </b> {books.shortDescription}</p>  
+                 
+            <p><b className="long"> LongDescription </b> : {books.longDescription}</p> 
+                  
         </div>
      );
 }

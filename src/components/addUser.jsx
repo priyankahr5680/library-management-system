@@ -39,7 +39,7 @@ const AddUser = () => {
                 <input type="tel" minLength='10' maxLength='10' placeholder="enter phoneNumber" value={phoneNumber}  onChange={(e)=>setPhoneNumber(e.target.value)}/>
                 </div>
                  <div className="addbutn">
-                    <button  >submit</button>
+                    <button>submit</button>
                     <button>Reset</button>
 
                  </div>

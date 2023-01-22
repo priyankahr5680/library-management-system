@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate,useLocation } from "react-router-dom";
 import '../styles/bookList.css'
 
-import ReadBook from "./readBook";
+
 const BookList = () => {
     let navigate=useNavigate()
     //use to fetch route value
@@ -47,11 +47,10 @@ const BookList = () => {
                         <h5>Author : {data.authors.toString()}</h5> 
                         <h6>PageCount : {data.pageCount}</h6>
                         <h6>Category : {data.categories.toString()}</h6>
-                        <button onClick={()=>read(data.id)}>Read more</button>
-                        {location.pathname=='/admin/book-list' && <button onClick={()=>handleDelete(data.id,data.title)}>Remove</button>}
+                        <button id="button1" onClick={()=>read(data.id)}>Read more</button>
+                        {location.pathname=='/admin/book-list' && <button  onClick={()=>handleDelete(data.id,data.title)}>Remove</button>}
                        
                     </div>
-                    <ReadBook data={read}/>
                  </div>
             ))}
             </div>

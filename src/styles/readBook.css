@@ -1,2 +1,20 @@
-
-
+.readBook{
+    background-color: white;
+    border-radius: 10px;
+    margin: 100px 20px;
+    height: 500px;
+    padding: 5px 5px;
+}
+.readBook p{
+    color:black;
+}
+.short {
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.long{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}

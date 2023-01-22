@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import '../styles/addBooks.css'
+import {} from 'react-router-dom'
 const AddBook = () => {
     //title,categories,authors,longDescription,shortDescription,pageCount,thumbnailUrl
     let navigate = useNavigate()
@@ -22,15 +23,15 @@ const AddBook = () => {
         alert(`book added successfully`)
         navigate('/admin/book-list')
     }
-    // let reset = () => {
-    //     setTitle("")
-    //     setAuthors("")
-    //     setCategories("")
-    //     setLongDescription("")
-    //     setShortDescription("")
-    //     setPageCount("")
-    //     setThumbnailUrl("")
-    // }
+    let reset = () => {
+        setTitle("")
+        setAuthors("")
+        setCategories("")
+        setLongDescription("")
+        setShortDescription("")
+        setPageCount("")
+        setThumbnailUrl("")
+    }
     return (
         <div className="addBook">
        
@@ -61,7 +62,7 @@ const AddBook = () => {
                     </div>
                     <div className="addbook_butn">
                         <button>AddBook</button>
-                        <button>Reset</button>
+                        <button onClick={reset}>Reset</button>
                     </div>
                     </div>
                 </form>
